@@ -1,0 +1,218 @@
+ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>KONTRAKANKU</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="styles/dekor.css">
+  </head>
+
+  <body>
+    <div class="headerBackground">
+      <div class="headerText">
+        <header>
+          <figure>
+              <a href="#nav"> <img src="assets/logo.png" class="logoHeader"></a>
+              <figcaption>sebuah persinggahan beberapa pemuda rantau dan pribumi demi mengejar gelar <dfn>sarjana</dfn></figcaption>
+          </figure>
+        </header>
+      </div>
+    </div>
+
+
+    <nav id="nav">
+      <li>
+        <strong>BaseCamp19</strong>
+        <div class="fas fa-bars" id="menuNav"></div>
+      </li>
+      <li><a href="#nav" class="navFirst"> Latar Belakang</a></li>
+      <li><a href="#Latar" class="navFirst">Profil Kamar</a></li>
+      <li><a href="#Event" class="navFirst">Event</a></li>
+      <li><a href="#imgFive" class="navFirst">More Information</a></li>
+      <li>
+        <div class="dropdown-nav" id="listMenuNav">
+          <a class="listMenu" href="#nav">Latar Belakang</a>
+          <a class="listMenu" href="#Latar">Profil Kamar</a>
+          <a class="listMenu" href="#Event">Event</a>
+          <a class="listMenu" href="#imgFive">More Information</a>
+        </div>
+      </li>
+    </nav>
+
+
+    <main>
+      <div id="content">
+        <article id="Latar">
+          <h2>LATAR BELAKANG</h2>
+          <p>Masa-masa mahasiswa baru adalah masa masa sangat mengesankan. Apalagi kami berlatar belakang jurusan teknik. Kumpulan setiap hari, tuntutan harus selalu kompak dan kekeluargaan 'katanya'. Lima bulan pertama adalah awal yang berat bagi kami. Jam 6 pagi harus digedung dan jam 6 sore pun mungkin kami baru sampe rumah masing-masing lagi.</p>
+        </article>
+
+        <article id="Profil">
+          <h2>Profil Kamar</h2>
+          <div class="container">
+            <img src="assets/kamar1.jpeg" title="Kamar Ibu Kos" alt="kamar1" class="left-img satu" id="choice">
+            <p>Kamar ini merupakan kamar terbesar di kontrakan kami. Sebutan untuk kamar ini yaitu <dfn>"kamar Ibu Kos"</dfn>. Karena yang menghuni ialah keluarga dari yang punya kontrakan ini. Dia asli pribumi sini. Sangat suka kucing tapi sayang dirumahnya tidak boleh memelihara kucing.</p>
+          </div>
+
+          <div class="container">
+            <img src="assets/kamar2.jpeg" title="Kamar Panas "alt="kamar2" class="right-img dua" id="choice">
+            <p><dfn> "Kamar Panas"</dfn>. Begitulah semua orang menyebut ruangan tersebut. Kamar yang tidak terlalu besar tetapi dihuni oleh 3 manusia berbeda asal. Konon katanya, kamar panas berawal dari mereka yang tak pernah mau kalah dalam hal berdebat.</p>
+          </div>
+
+          <div class="container">
+            <img src="assets/kamar3.jpeg" title="Kamar Rapih" alt="kamar3" class="left-img tiga" id="choice">
+            <p>Kamar ini letaknya didepan percis pintu masuk. Walaupun didepan pintu masuk, kamar ini akan terlihat selalu rapih. Memang di pintunya, tertempel banyak sekali aturan jika ingin masuk. Penghuni nya yaitu berasal dari Bekasi. Dan kamar ini disebut dengan <dfn>"Kamar Rapih"</dfn> </p>
+          </div>
+        </article>
+
+        <article id="Event">
+          <h2>Event</h2>
+          <ul id="list">
+            <li class="acara makan" onmouseover="aFunction()" onclick="aSecFunction()"><a href="#list">Makan Bersama </a></li>
+            <li class="acara kumpul" onmouseover="bFunction()" onclick="bSecFunction()"><a href="#imgOne">Kumpul Angkatan </a></li>
+            <li class="acara cukur" onmouseover="cFunction()" onclick="cSecFunction()"><a href="#imgTwo">Cukur Bersama </a></li>
+            <li class="acara obrolan" onmouseover="dFunction()" onclick="dSecFunction()"><a href="#imgThree">Obrolan Malam </a></li>
+            <li class="acara malam" onmouseover="eFunction()" onclick="eSecFunction()"><a href="#imgFour">Malam Basah </a></li>
+          </ul>
+
+          <div class="imageBox one">
+            <img id="imgOne" src="assets/MakanBersama.jpeg" title="Makan Bersama" width="140px" class="imageEvent">
+            <p class="lowFont"> <dfn>Makan Bersama</dfn> </p>
+          </div>
+
+          <div class="imageBox two">
+            <img id="imgTwo" src="assets/Kumpul.jpeg" title="Kumpul Angkatan" width="140px" class="imageEvent">
+            <p class="lowFont"><dfn>Kumpul Angkatan</dfn></p>
+          </div>
+
+          <div class="imageBox three">
+            <img id="imgThree" src="assets/CukurBersama.jpeg" title="Cukur Bersama" width="140px" class="imageEvent">
+            <p class="lowFont"><dfn>Cukur Bersama</dfn></p>
+          </div>
+
+          <div class="imageBox four">
+            <img id="imgFour" title="Obrolan Malam" src="assets/obrolanmalam.jpeg" width="140px" class="imageEvent">
+            <p class="lowFont"><dfn>Obrolan Malam</dfn></p>
+          </div>
+
+          <div class="imageBox five">
+            <img id="imgFive" src="assets/MandiUjan.jpeg" title="Malam Basah" width="140px" class="imageEvent">
+            <p class="lowFont"><dfn>Malam Basah</dfn></p>
+          </div>
+
+          <div class="modal" id="myModal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="myImg">
+            <div id="caption-modal"></div>
+          </div>
+          <div class="clear"></div>
+        </article>
+
+        <article id="More">
+          <h2>More Information</h2>
+          <div class="leftBox">
+            <p><strong>Contact Me!</strong></p>
+            <p><a href="mailto:base.camp19@gmail.com" target="_blank"><img src="assets/mail.png" title="Gmail" width="100px" height="100px" class="icon"></a></p>
+
+          </div>
+
+          <div class="centerBox">
+            <p><strong>Follow Me!</strong></p>
+            <p><cite><a href="https://instagram.com/base.camp19?igshid=1cgp7orjrtwj4" target="_blank"><img src="assets/Instagram.png" title="Instagram" width="100px" height="100px" class="icon"> </a></cite</p>
+          </div>
+
+          <div class="rightBox">
+            <p><strong>Find Me!</strong></p>
+            <p><cite><a href="https://maps.google.com/?cid=17472171654050723669" target="_blank"><img <img src="assets/maps.png" title="Penulis" width="100px" height="100px" class="icon"></a></cite></p>
+          </div>
+          <div class="clear"></div>
+        </article>
+
+        <article id="voting">
+          <h2>Vote Kamar Terbaik</h2>
+          <button id="click" class="buttonVote" ><a id="btn" href="#Profil">Let's Go!</a></button>
+          <button id=historyVote class="buttonVote">Hasil Vote</button>
+          <div class="clear"></div>
+          <table id="votingTable">
+            <thead>
+              <tr>
+                <th>Nama Kamar</th>
+                <th>Jumlah Vote</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Kamar Ibu Kos</td>
+                <td><span id='countSatu'>0</span> </td>
+              </tr>
+
+              <tr>
+                <td>Kamar Panas</td>
+                <td><span id='countDua'>0</span> </td>
+              </tr>
+
+              <tr>
+                <td>Kamar Rapih</td>
+                <td><span id='countTiga'>0</span> </td>
+              </tr>
+            </tbody>
+
+
+          </table>
+
+        </article>
+      </div>
+
+
+      <aside>
+        <article class="aboutCenter">
+          <h3><strong>Tentang Penulis</strong></h2>
+          <img src="assets/penulis.jpeg" title="Penulis" width="100px" height="120px"class="image">
+          <table>
+            <tr>
+              <td>Nama</td>
+              <td>: Aria Seno Annabiy</td>
+            </tr>
+            <tr>
+              <td>Tempat, Tanggal Lahir</td>
+              <td>: Jakarta, 14 Oktober 2000</td>
+            </tr>
+            <tr>
+              <td>Hobi</td>
+              <td>: Berolahraga</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>: ariaseno.an@gmail.com</td>
+            </tr>
+            <tr>
+              <td >Agama</td>
+              <td>: Islam</td>
+            </tr>
+            <tr>
+              <td>Jenis Kelamin</td>
+              <td>: Laki-Laki</td>
+            </tr>
+          </table>
+
+        </article>
+      </aside>
+      <div class="clear"></div>
+
+
+    </main>
+
+    <footer>
+      <p><dfn>"Maju kena, mundur bukan pilihan"</dfn></p>
+    </footer>
+
+    <script src="changeNav.js"></script>
+    <script src="effectVote.js"></script>
+    <script src="effectEvent.js"></script>
+    <script src="modal-image.js"></script>
+  </body>
+</html>
