@@ -56,7 +56,7 @@ main{
 }
 
 .headerBackground{
-  background: url("C:/Users/user/Submission/assets/wallpaperHeader.jpg");
+  background: url(https://raw.githubusercontent.com/ariaseno/kontrakan/master/assets/wallpaperHeader.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
